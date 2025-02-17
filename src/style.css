@@ -1,23 +1,20 @@
+body {
+  background-color: #d8d5d5;
+}
 
-  body {
-    background-color: #d8d5d5; 
-  }
+#calc-display {
+  background-color: #88837c;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-  #calc-display {
-    background-color:#88837c; 
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-  }
+.card {
+  background-color: #af9ed8;
+  color: rgb(58, 48, 48);
+  font-weight: bold;
+}
 
-  .card 
-  {
-    background-color: #af9ed8; /* Yellow */
-    color: rgb(58, 48, 48);
-    font-weight: bold;
-  }
-
-  .button:hover {
-    filter: brightness(85%);
-  }
-
+.button:hover {
+  filter: brightness(85%);
+}
