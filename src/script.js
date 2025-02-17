@@ -7,20 +7,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function evaluateResult() {
         console.log('currentValue', currentValue)
+
         const convertedValue = currentValue
             .replace("x", "*")
-            .replace("+", "/")
+        
             .replace('%', '*0.01')
             .replace('÷', "/")
       
          
 
        console.log('convertedValue', convertedValue)
+    
         const result = eval(convertedValue);
         currentValue = result.toString();
         display.value = currentValue;
 
-    }
+       }
 
     for (let i = 0; i < buttons.length; i++) {
         const button = buttons[i];
